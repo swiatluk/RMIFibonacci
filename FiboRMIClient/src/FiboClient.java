@@ -8,15 +8,13 @@ import java.util.Scanner;
 public class FiboClient
 {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args)
 	{try{
-	      //Get reference from server's registry
+	      
 	      Registry registry = LocateRegistry.getRegistry("192.168.1.106");
 	 
-	      //Lookup server object from server's registry
+	      
 	      FiboInt power_proxy = (FiboInt)registry.lookup("PowerObject");
 	 
 	      int  k;
