@@ -12,7 +12,7 @@ public class FiboClient
 	public static void main(String[] args)
 	{try{
 	      
-	      Registry registry = LocateRegistry.getRegistry("192.168.1.106");
+	      Registry registry = LocateRegistry.getRegistry("172.20.10.13");
 	 
 	      
 	      FiboInt power_proxy = (FiboInt)registry.lookup("PowerObject");
